@@ -1,0 +1,128 @@
+/*@import url('./fonts.css')
+*/
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:200,300,700&display=swap');
+
+@font-face {
+font-family: 'Canela Web';
+src: url('./fonts/Canela-Thin-Web.eot');
+src: url('./fonts/Canela-Thin-Web.eot?#iefix') format('embedded-opentype'),
+url('./fonts/Canela-Thin-Web.woff2') format('woff2'),
+url('./fonts/Canela-Thin-Web.woff') format('woff');
+font-weight: 100;
+font-style: normal;
+font-stretch: normal;
+}
+
+body {
+  background: rgb(242,216,214);
+  background: linear-gradient(0deg, rgba(242,216,214,1) 0%, rgba(250,236,203,1) 100%);
+  font-family: 'Work Sans', sans-serif;
+  color: #3e3e3e;
+  text-align: center;
+}
+
+
+h1, h2 {
+  font-family: 'Canela Web';
+  font-weight: 100;
+}
+
+a {
+  text-decoration: none;
+  color: #FF686B;
+}
+
+a:hover {
+  color: #e8dbbb;
+  transition: all 0.7s ease-in-out;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 1.5rem;
+}
+
+p {
+  margin-bottom: 50px;
+}
+
+.round_image {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+
+.container {
+  width: 700px;
+  margin: auto;
+}
+
+.card {
+  background-color: white;
+  padding: 30px 100px 70px 100px;
+  margin: 50px 0px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+}
+
+.button {
+  background-color: #white;
+  display: inline;
+  padding: 10px 15px;
+  border: 1px solid #FF686B;
+}
+
+.button:hover {
+  background-color: #FF686B;
+  color: white;
+  display: inline;
+  padding: 10px 15px;
+  border: 1px solid #FF686B;
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+
+  h1 {
+    font-size: 28px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  a {
+   font-size: 14px;
+  }
+
+  li {
+    font-size: 2rem;
+    padding: 0px 10px;
+  }
+
+  .container {
+    width: 80%;
+  }
+
+  .card {
+    padding: 10px 30px 40px 30px;
+    margin: 30px 0px;
+  }
+
+  .round_image {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+}
+
